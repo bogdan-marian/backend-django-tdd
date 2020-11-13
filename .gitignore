@@ -1,1 +1,3 @@
-*__pycache__
+.installed.cfg
+
+*.pyc
