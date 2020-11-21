@@ -14,6 +14,30 @@ docker-compose run app sh -c "python manage.py createsuperuser"
 docker-compose run --rm app sh -c "python manage.py startapp user"
 ```
 
-to test in browser
+## to test in browser
 [admin console](http://127.0.0.1:8000/admin/)
 [home url](http://127.0.0.1:8000)
+[create a user](http://127.0.0.1:8000/api/user/create/)
+[get a valid token](http://127.0.0.1:8000/api/user/token/)
+[update me](http://127.0.0.1:8000/api/user/me/)
+
+
+## mod heder tips
+To simulate authorization token in brower use [HodHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) chrome plugin
+
+example token
+```javascript
+{
+    "token": "2c4659ee9830006bd524136457978d902582c1f9"
+}
+```
+
+In ModHeader ad to header
+```md
+Request Header: `Authorization`
+Value: `Token 2c4659ee9830006bd524136457978d902582c1f9`
+```
+
+
+
+
