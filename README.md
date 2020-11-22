@@ -52,5 +52,6 @@ a django app. In our case we add the Ingredients related endpoints
     - register the model (git: a1d2e1a9daefb648938bc444c813e7c35f44e3ef)
     - run the tests
         - `docker-compose run app sh -c "python manage.py test && flake8"`
-- add tests for listing the ingredients
-- implemented list ingredients
+- add tests for listing the ingredients (git: 6af380f18803915b5b736bde2a4653640ee90e07)
+- implemented list ingredients (git: 954f6138de25ebe5082de63a3a9b45c67eb22e6f)
+- add tests for creating ingredinets (git: )
