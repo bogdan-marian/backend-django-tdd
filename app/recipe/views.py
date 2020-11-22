@@ -29,7 +29,7 @@ class IngredientViewSet(viewsets.GenericViewSet,
                         mixins.ListModelMixin):
     """Manage ingredients in the database"""
     authentication_classes = (TokenAuthentication,)
-    permision_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)
     queryset = Ingredient.objects.all()
     serializer_class = serializers.IngredientSerializer
 
