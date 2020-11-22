@@ -76,6 +76,5 @@ class Recipe(models.Model):
     ingredients = models.ManyToManyField('Ingredient')
     tags = models.ManyToManyField('Tag')
 
-
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
