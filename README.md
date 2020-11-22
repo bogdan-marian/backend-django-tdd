@@ -48,6 +48,7 @@ a django app. In our case we add the Ingredients related endpoints
 - add the model
     - add the model and run the migrations (git: 21250b3dd5d9af184c7eae9008e34fbe0fa4db06)
     - `docker-compose run app sh -c "python manage.py makemigrations core"`
-- register the model
-    - 
-
+- register the model 
+    - register the model (git: a1d2e1a9daefb648938bc444c813e7c35f44e3ef)
+    - run the tests
+        - `docker-compose run app sh -c "python manage.py test && flake8"`
