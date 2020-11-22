@@ -46,6 +46,8 @@ a django app. In our case we add the Ingredients related endpoints
 - in the core app ad the test for the new model (git: d2cd614a50f30d25467988664625ff87e77557e7)
     - we test that our model is converted corectly to a string representation
 - add the model
-    - add the model and run the migrations
+    - add the model and run the migrations (git: 21250b3dd5d9af184c7eae9008e34fbe0fa4db06)
     - `docker-compose run app sh -c "python manage.py makemigrations core"`
+- register the model
+    - 
 
