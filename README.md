@@ -41,5 +41,9 @@ Value: `Token 2c4659ee9830006bd524136457978d902582c1f9`
 ```
 
 
-
+## general flow for addin a model
+This is a short step by step tutorial about how to add a new endpoint to 
+a django app
+- in the core app ad the test for the new model (git: )
+    - we test that our model is converted corectly to a string representation
 
